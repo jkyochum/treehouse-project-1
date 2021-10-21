@@ -1,2 +1,1 @@
-# treehouse-project-1
- Profile page
+# Treehouse Project 1 - Profile Page
