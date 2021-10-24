@@ -75,23 +75,34 @@ header {
   background: url("images/red-rock-canyon.jpg") no-repeat top center;
   background-size: cover;
 }
-#projects-header {
-  background-color: #1fd4f0;
+#projects-header,
+#personal-header {
+  color: white;
   width: 80%;
   margin: 20px auto;
   border-radius: 6px;
-  box-shadow: 5px 5px 15px 4px black;
+  box-shadow: 5px 5px 15px 1px black;
+}
+
+#personal-header {
+  background-image: url("../images/waterfall.jpg");
+}
+
+#projects-header {
+  /*Photo by <a href="https://unsplash.com/@octadan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Octavian Dan</a> on <a href="https://unsplash.com/s/photos/project?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
+  background-image: url("../images/projects-background.jpg");
+  background-size: cover;
 }
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all 0.5s;
+  border: 3px solid #efef1f;
+  transition: all 0.9s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(10deg);
 }
 #projects-heading {
   width: 75%;
@@ -127,6 +138,24 @@ header .profile-image:hover {
 .card ul {
   padding-left: 16px;
   line-height: 1.5em;
+}
+
+.personal-card {
+  max-width: 80%;
+  background-color: #e7e5e5;
+}
+
+.picture-holder {
+  text-align: center;
+}
+
+.picture-holder img {
+  width: 40%;
+  flex-wrap: wrap;
+  max-width: 150px;
+  justify-content: space-evenly;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 ul.skills {
