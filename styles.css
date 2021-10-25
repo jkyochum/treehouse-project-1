@@ -75,6 +75,12 @@ header {
   background: url("images/red-rock-canyon.jpg") no-repeat top center;
   background-size: cover;
 }
+
+#projects-heading,
+#personal-heading {
+  width: 75%;
+  margin: 30px auto;
+}
 #projects-header,
 #personal-header {
   color: white;
@@ -84,13 +90,19 @@ header {
   box-shadow: 5px 5px 15px 1px black;
 }
 
+header h1 {
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 6px;
+  padding: 5px;
+}
+
 #personal-header {
-  background-image: url("../images/waterfall.jpg");
+  background-image: url("images/waterfall.jpg");
 }
 
 #projects-header {
   /*Photo by <a href="https://unsplash.com/@octadan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Octavian Dan</a> on <a href="https://unsplash.com/s/photos/project?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
-  background-image: url("../images/projects-background.jpg");
+  background-image: url("images/projects-background.jpg");
   background-size: cover;
 }
 header .profile-image {
@@ -103,10 +115,6 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.5) rotate(10deg);
-}
-#projects-heading {
-  width: 75%;
-  margin: 30px auto;
 }
 .tag {
   background-color: #efefef;
